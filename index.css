@@ -1,0 +1,52 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#card{
+    background-color: white;
+    border-radius: 20px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    justify-content: left;
+}
+
+.attribution{
+    margin-top: 15px;
+    text-align: center;
+    color: black;
+}
+
+svg{
+    margin: auto;
+}
+
+#Learning{
+    background-color: yellow;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 10px;
+    max-width: 70px;
+    align-self: self-start;
+}
+
+#avatar{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+#para{
+    max-width: 336px;
+    max-height: 201px;
+    overflow: auto;
+}
